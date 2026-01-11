@@ -38,7 +38,7 @@ abstract class ThunderScansBase(
 
 class LavaScans : ThunderScansBase(
     "Lava Scans",
-    "https://lavatoons.com",
+    "https://lavascans.com/",
     "ar",
     dateFormat = SimpleDateFormat("MMM d, yyy", Locale("ar")),
 ) {
@@ -47,7 +47,7 @@ class LavaScans : ThunderScansBase(
 
 class ThunderScans : ThunderScansBase(
     "Thunder Scans",
-    "https://en-thunderscans.com",
+    "https://lavascans.com/",
     "en",
     mangaUrlDirectory = "/comics",
 )
